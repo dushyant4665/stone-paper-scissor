@@ -1,0 +1,91 @@
+body{
+  background-image:url(yllw.jpg);
+  margin: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: none;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+#h1{
+  margin-bottom: 2em;
+  margin-left: 28px;
+  font-size: 25px;
+
+}
+.choices button{
+  margin: 0 50px;
+  transform: scale(3.5);
+  text-align: center ;
+  border-radius: 40%;
+  margin-bottom: 50px;
+  min-width: 1em;
+  cursor: pointer;
+  background-color: lightblue;
+  border-color:rgb(0, 0, 0);
+  transition-duration: 0.2s;
+}
+button:hover{
+  background-color: rgb(0, 166, 255);
+}
+
+button:active{
+  background-color: rgb(0, 66, 128);}
+ 
+
+#result{
+font-family:Arial, Helvetica, sans-serif;
+margin-right:20px;
+font-size: 20px;
+;
+}
+
+#sets
+{
+ margin-bottom: 0px;
+}
+
+#choices
+{
+margin-left:20px;
+}
+
+
+#thebox 
+{
+margin-right: 30px;
+color:aliceblue;
+margin-top: 30px;
+box-sizing: border-box;
+width:300px;
+height:300px;
+font-size: 50px;
+
+border: 2px solid #000000;
+padding: 10px;
+
+background: url(http://studio-creator.com/blog/public/html5.jpg) center;
+background-size: contain;
+background-repeat: no-repeat;
+background-origin: content-box;
+background-color: black;
+
+}
+
+#player{
+font-size: 30px;
+margin-bottom: 40px;
+}
+
+#computer{
+font-size:30px ;
+margin-top: 0px;
+}
+
+.greenText{
+  color: hsl(130, 84%, 54%);
+}
+.redText{
+  color: hsl(0, 84%, 64%)
+}
